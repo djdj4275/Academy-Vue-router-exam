@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <h3>{{$route.params.page}}페이지입니다</h3>
-        <p>{{this.day.board[$route.params.page].memo}}</p>
+        <p>{{this.day.board[$route.params.page-1].memo}}</p>
     </div>
 </template>
 
